@@ -1,0 +1,9 @@
+CREATE TABLE "device" (
+"id" bigint auto_increment PRIMARY KEY,
+"code" VARCHAR(32) NOT NULL,
+"title" VARCHAR (128) NOT NULL,
+"subsystem-id" BIGINT NOT NULL,
+"device-num" TINYINT NOT NULL,
+"var-header" VARCHAR(5000) NULL,
+"created" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
+"modified" TIMESTAMP NOT NULL AS CURRENT_TIMESTAMP());

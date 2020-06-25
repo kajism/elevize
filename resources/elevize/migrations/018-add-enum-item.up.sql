@@ -1,0 +1,8 @@
+CREATE TABLE "enum-item" (
+"id" BIGINT auto_increment PRIMARY KEY,
+"group-name" VARCHAR(64) NOT NULL,
+"name" VARCHAR(64),
+"order-pos" SMALLINT,
+"label" VARCHAR(64),
+"created" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
+"modified" TIMESTAMP NOT NULL AS CURRENT_TIMESTAMP());

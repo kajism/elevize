@@ -1,0 +1,1 @@
+ALTER TABLE "variable" ALTER COLUMN "kks" TYPE VARCHAR(30);

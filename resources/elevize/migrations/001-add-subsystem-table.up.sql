@@ -1,0 +1,6 @@
+CREATE TABLE "subsystem" (
+"id" bigint auto_increment PRIMARY KEY,
+"code" VARCHAR(32) NOT NULL,
+"title" VARCHAR(128) NOT NULL,
+"created" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP(),
+"modified" TIMESTAMP NOT NULL AS CURRENT_TIMESTAMP());

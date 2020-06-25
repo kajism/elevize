@@ -1,0 +1,1 @@
+ALTER TABLE "alarm-history" ALTER COLUMN "kks" TYPE VARCHAR(30);

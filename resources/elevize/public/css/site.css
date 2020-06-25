@@ -1,0 +1,199 @@
+body, .body {
+    background-color: NavajoWhite;
+    color: #303030;
+}
+
+.form-control {
+    margin: 5px;
+}
+
+.form-control {
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 26px;
+}
+
+.navbar {
+    background-color: #CCCCCB;
+    min-height: 30px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+label, h1, h2, h3, h4, h5, a, th, .navbar-default .navbar-nav>li>a {
+    color: #1b509c;
+}
+
+label {
+    margin-top: 7px;
+    margin-bottom: 2px;
+}
+
+ul.nav-tabs > li {
+    font-weight: bold;
+}
+
+.login {
+    height: 100%;
+    background-image: url("/img/login_bg.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.suma {
+    margin-bottom: 10px;
+}
+
+.panel-default > .panel-heading-custom {
+    color: #1b509c;
+    background: #CCCCCB;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.table {
+    margin-bottom: 5px;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th {
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.table > tbody > tr > td.buttons {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+td.true, span.true {
+    background-color: PaleGreen;
+}
+
+td.false, span.false {
+    background-color: Gainsboro;
+}
+
+button.true {
+    color: Green;
+    font-weight: bold;
+}
+
+button.false {
+    color: Red;
+    font-weight: bold;
+}
+
+.error {
+    background-color: #ffb3b3;
+}
+
+li.alarms {
+    position: fixed;
+    -webkit-backface-visibility: hidden;
+    background-color: #ffb3b3;
+}
+
+#ebs-time {
+    position: fixed;
+    -webkit-backface-visibility: hidden;
+    padding-bottom: 6px;
+    z-index: 100;
+    bottom: 0px;
+    left: 0px;
+    font-size: larger;
+    opacity: 1;
+}
+
+#ebs-time span {
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
+
+.fresh {
+    background-color: PaleGreen;
+}
+
+.stale {
+    background-color: #ffb3b3;
+    font-size: 700%;
+}
+
+.status-table td {
+    padding: 3px;
+    width: 60px;
+}
+
+.status-table td a {
+    display: block;
+    text-align: center;
+}
+
+.FatalniChyba {
+    background-color: Gainsboro !important;
+}
+
+.KritickaChyba {
+    background-color: #ffb3b3 !important;
+}
+
+.Chyba {
+    background-color: #FFC966 !important;
+}
+
+.Varovani {
+    background-color: LemonChiffon !important;
+}
+
+.Ok {
+    background-color: PaleGreen;
+}
+
+@keyframes blinking {
+    0%,90% { opacity: 1;}
+    91%,100% { opacity: 0.5; }
+}
+
+.blinking {
+    animation: blinking 1s step-end infinite;
+}
+
+@keyframes moving {
+    100% { transform: translate(30px, 0)}
+    /*
+0% { transform: translate(0px, 0)}
+5%, 33% { transform: translate(10px, 0)}
+    38%, 66% { transform: translate(20px, 0)}
+   71%, 100% { transform: translate(30px, 0)} */}
+
+.moving {
+    animation: moving 2s linear infinite;
+}
+
+th.normal {
+    font-weight: normal;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
